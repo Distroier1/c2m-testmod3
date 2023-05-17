@@ -38,6 +38,8 @@
 		"unitType": "Melee",
 		"movement": 1,
 		"strength": 8,
+  "obsoleteTech": "Wood Working", 
+  "upgradesTo": "Clubman",
 		"cost": 25
 
 	},
@@ -48,6 +50,8 @@
 		"strength": 8,
 		"rangedStrength": 4,
 		"range": 1,
+  "obsoleteTech": "Trapping", 
+  "upgradesTo": "Slinger",
 		"cost": 30
 
 	},
@@ -75,6 +79,8 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 4,
+  "obsoleteTech": "Hunting", 
+  "upgradesTo": "Hunter",
 		"cost": 25,
 		"requiredTech": "Nomadism"
 
