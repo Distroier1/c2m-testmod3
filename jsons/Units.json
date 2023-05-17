@@ -1,0 +1,235 @@
+[
+	/* Ancient Era */
+	{
+		"name": "Gatherer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can construct [Gathering Spot]",
+			"Excess Food converted to Production when under construction"
+		],
+		"cost": 50,
+		"requiredTech": "Gathering"
+
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 1,
+		"uniques": [ "Can build [Land] improvements on tiles", "Excess Food converted to Production when under construction" ],
+		"cost": 90,
+		"requiredTech": "Stone Tools"
+
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 150,
+		"requiredTech": "Sedentary Lifestyle",
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		]
+	},
+	{
+		"name": "Stick Fighter",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 8,
+		"cost": 25
+
+	},
+	{
+		"name": "Stone Thrower",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 8,
+		"rangedStrength": 4,
+		"range": 1,
+		"cost": 30
+
+	},
+	{
+		"name": "Clubman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 12,
+		"cost": 35,
+		"requiredTech": "Wood Working"
+
+	},
+	{
+		"name": "Stone Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 14,
+		"cost": 50,
+		"uniques": [ "Bonus vs Mounted 50%" ],
+		"requiredTech": "Stone Working"
+
+	},
+	{
+		"name": "Wanderer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 4,
+		"cost": 25,
+		"requiredTech": "Nomadism"
+
+	},
+	{
+		"name": "Stone Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 16,
+		"cost": 60,
+		"uniques": [ "Bonus vs Melee 50%" ],
+		"requiredTech": "Stone Tools"
+
+	},
+	{
+		"name": "Hunter",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"uniques": [ "+1 Sight" ],
+		"requiredTech": "Hunting"
+
+	},
+	{
+		"name": "Raft",
+		"unitType": "Water melee",
+		"movement": 1,
+		"strength": 6,
+		"cost": 50,
+		"uniques": [ "Cannot enter ocean tiles" ],
+		"requiredTech": "Raft Building"
+
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 1,
+		"requiredTech": "Trapping",
+		"cost": 60
+
+	},
+	{
+		"name": "Fishing Raft",
+		"unitType": "Water civillian",
+		"movement": 1,
+		"cost": 70,
+		"requiredTech": "Fishing",
+		"uniques": [ "Can build improvements on tiles", "May create improvements on water resources" ]
+	},
+	{
+		"name": "Trained Dogs",
+		"unitType": "Mounted",
+		"strength": 15,
+		"movement": 2,
+		"cost": 60,
+		"requiredTech": "Dog Domestication",
+		"uniques": [ "Penalty vs City 75%" ]
+	},
+	{
+		"name": "Obsidian Swordsman",
+		"unitType": "Melee",
+		"strength": 20,
+		"movement": 1,
+		"cost": 100,
+		"requiredTech": "Obsidian Tools",
+
+		"uniques": [ "Bonus vs City 15%", "Consumes [copper]" ]
+	},
+	{
+		"name": "Obsidian Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 18,
+		"cost": 90,
+		"uniques": [ "Bonus vs Melee 50%", "Consumes [copper]" ],
+		"requiredTech": "Obsidian Tools"
+
+	},
+	{
+		"name": "Obsidian Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 18,
+		"cost": 90,
+		"uniques": [ "Bonus vs Mounted 50%", "Consumes [copper]" ],
+		"requiredTech": "Obsidian Tools"
+
+	},
+
+
+
+	/* Great people */
+
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [ "Can start an [8]-turn golden age", "Great Person - [Culture]", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [ "Can hurry technology research", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [ "Can speed up construction of a building", "Great Person - [Production]", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	}
+]

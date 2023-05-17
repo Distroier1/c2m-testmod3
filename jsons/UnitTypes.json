@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Melee",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged",
+    "movementType": "Land"
+  },
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "Water melee",
+    "movementType": "Water"
+  },
+  {
+    "name": "Water civillian",
+    "movementType": "Water"
+  },
+  {
+    "name": "DinoMounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "MountedRanged",
+    "movementType": "Land"
+  }
+]

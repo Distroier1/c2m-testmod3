@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Tales",
+        "era": "Paleolithic Age",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 30
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            
+        ],
+        "policies": [
+            {
+                "name": "Legend of Bison",
+                "uniques": [
+                    "[+1 Culture] from every Bison ",
+                    
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legend of Ivory",
+                "uniques": [
+                    "[+1 Culture] from every [Ivory] ",
+                    
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Legend of Pig",
+                "uniques": [
+                    "[+1 Culture] from every [Truffles] ",
+                    
+                ],
+                "row": 1,
+                "column": 5
+            },
+
+            {
+                "name": "Legend of Deer",
+                "uniques": [
+                    "[+1 culture] from every [Deer]"
+                ],
+                "requires": ["Legend of Ivory"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Legend of Cattle",
+                "uniques": [
+                    "[+1 culture] from every [Cattle]"
+                ],
+                "requires": ["Legend of Ivory"],
+                "row": 2,
+                "column": 4
+            },
+      
+            {
+                "name": "Tales Complete",
+                "uniques": [
+                    "[+1 science] [in all cities]",
+                ]
+            }
+        ]
+    },
+]

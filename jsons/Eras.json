@@ -1,0 +1,61 @@
+[
+  {
+
+    "name": "Paleolithic Age",
+    "researchAgreementCost": 150,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 0,
+    "startingMilitaryUnitCount": 0,
+    "startingMilitaryUnit": "Stick Fighter",
+    "settlerPopulation": 1,
+    "baseUnitBuyCost": 200,
+    "uniques": [ "[-90]% growth [in all cities]" ]
+    "embarkDefense": 3,
+    "startPercent": 0,
+    "friendBonus": {
+      "Cultured": [ "Provides [+3 Culture] per turn" ],
+      "Maritime": [ "Provides [+2 Food] [in capital] per turn" ],
+      "Mercantile": [ "Provides [+2] Happiness" ],
+      "Religious": [ "Provides [+3 Faith] per turn" ],
+      "Militaristic": [ "Provides military units every ≈[20] turns" ]
+    },
+    "allyBonus": {
+      "Cultured": [ "Provides [+6 Culture] per turn" ],
+      "Maritime": [ "Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn" ],
+      "Mercantile": [ "Provides [+2] Happiness", "Provides a unique luxury" ],
+      "Religious": [ "Provides [+6 Faith] per turn" ],
+      "Militaristic": [ "Provides military units every ≈[17] turns" ]
+    },
+    "iconRGB": [ 138, 227, 218 ]
+  },
+  {
+
+    "name": "Neolithic Age",
+    "researchAgreementCost": 150,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 0,
+    "startingMilitaryUnitCount": 0,
+    "startingMilitaryUnit": "Stick Fighter",
+    "uniques": [ "[+50]% growth [in all cities]" ],
+    "settlerPopulation": 1,
+    "baseUnitBuyCost": 200,
+    "embarkDefense": 3,
+    "startPercent": 0,
+    "friendBonus": {
+      "Cultured": [ "Provides [+3 Culture] per turn" ],
+      "Maritime": [ "Provides [+2 Food] [in capital] per turn" ],
+      "Mercantile": [ "Provides [+2] Happiness" ],
+      "Religious": [ "Provides [+3 Faith] per turn" ],
+      "Militaristic": [ "Provides military units every ≈[20] turns" ]
+    },
+    "allyBonus": {
+      "Cultured": [ "Provides [+6 Culture] per turn" ],
+      "Maritime": [ "Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn" ],
+      "Mercantile": [ "Provides [+2] Happiness", "Provides a unique luxury" ],
+      "Religious": [ "Provides [+6 Faith] per turn" ],
+      "Militaristic": [ "Provides military units every ≈[17] turns" ]
+    },
+    "iconRGB": [ 137, 227, 218 ]
+  }
+
+]

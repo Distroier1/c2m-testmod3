@@ -1,0 +1,254 @@
+[
+	// Paleolithic Era
+
+	// Always available
+	{
+		"name": "Paleolithic Era",
+		"cost": 1,
+		"happiness": -12,
+		"culture": 1,
+		"production": -1,
+		"uniques": [ "Unsellable", "[-1] production per [2] population [in this city]", "[-90]% culture [in this city]"]
+
+	},
+	{
+		"name": "Legendary Stone",
+		"isNationalWonder": true,
+
+		"cityStrength": 1,
+		"culture": -1,
+		"cost": 1,
+		"uniques": [ "Indicates the capital city" ]
+	},
+	{
+		"name": "Cave",
+		"production": 1,
+		"cost": 30,
+		"requiredTech": "Nomadism",
+		"specialistSlots": { "Caveman": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Neander Valley",
+		"culture": 1,
+		"production": 1,
+		"food": 1,
+		"cost": 80,
+		"isWonder": true,
+		"requiredTech": "Nomadism"
+
+	},
+	{
+		"name": "Stick Gatherer",
+		"production": 1,
+		"cost": 30,
+		"requiredTech": "Gathering",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Fruit Gatherer",
+		"food": 1,
+		"cost": 30,
+		"requiredTech": "Gathering",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Herb Gatherer",
+		"food": 1,
+		"happiness": 1,
+		"cost": 40,
+		"requiredTech": "Herbalism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Campfire",
+		"food": 2,
+		"production": 1,
+		"culture": 1,
+		"cost": 50,
+		"requiredTech": "Fire",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Elder Hut",
+		"science": 2,
+		"culture": 2,
+		"maintenance": 1,
+		"cost": 60,
+		"requiredTech": "Tradition",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Stonecutter Hut",
+
+		"production": 1,
+		"maintenance": 1,
+		"specialistSlots": { "Early Engineer": 1 },
+		"cost": 70,
+
+		"requiredTech": "Stone Working",
+
+
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Shaman Hut",
+
+		"happiness": 1,
+		"science": 2,
+		"maintenance": 1,
+		"specialistSlots": { "Early Scientist": 1 },
+
+		"cost": 70,
+
+		"requiredTech": "Shamanism",
+
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Venus of Willendorf",
+		"culture": 1,
+		"food": 2,
+		"cost": 140,
+		"isWonder": true,
+		"uniques": [ "[+1] population [in all cities]" ],
+		"requiredTech": "Carving"
+
+	},
+	{
+		"name": "Lascaux Cave",
+		"culture": 4,
+		"happiness": 2,
+		"cost": 160,
+		"isWonder": true,
+
+		"requiredTech": "Cave Art"
+
+	},
+	{
+		"name": "Cave Paintings",
+		"culture": 2,
+		"cost": 90,
+		"requiredTech": "Cave Art",
+		"specialistSlots": { "Caveman": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Ritual Dance",
+		"culture": 1,
+		"happiness": 2,
+		"cost": 90,
+		"requiredTech": "Ritualism",
+		"specialistSlots": {
+			"Caveman": 1,
+			"Early Entertainer": 1
+		},
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Spring Festival",
+		"isNationalWonder": true,
+		"requiredTech": "Celebration",
+		"food": 2,
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 2,
+
+		"cost": 220
+
+	},
+	{
+		"name": "New Year Festival",
+		"isNationalWonder": true,
+		"requiredTech": "Celebration",
+		"gold": 2,
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 2,
+
+		"cost": 220
+
+	},
+	{
+		"name": "Graveyard",
+
+		"culture": 1,
+		"happiness": -1,
+		"cost": 120,
+		"requiredTech": "Ceremonial Burial",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Chieftain Hut",
+
+		"production": 2,
+		"food": 1,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 2,
+		"cost": 160,
+		"requiredTech": "Chiefdom",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Fur Trader",
+
+		"gold": 2,
+		"cost": 120,
+		"requiredTech": "Trapping",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Fisherman Hut",
+
+		"food": 2,
+		"cost": 160,
+		"maintenance": 1,
+		"requiredTech": "Fishing",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Granary",
+
+		"food": 1,
+		"cost": 160,
+		"requiredTech": "Pottery",
+		"uniques": [ "Destroyed when the city is captured", "[+10]% Food is carried over after population increases [in this city]" ]
+	},
+	{
+		"name": "Monte Verde",
+		"culture": 2,
+		"food": 3,
+		"cost": 280,
+		"isWonder": true,
+		"requiredTech": "Pottery",
+		"specialistSlots": { "Peasant": 1 }
+
+	},
+	{
+		"name": "Monument",
+
+		"culture": 3,
+		"cost": 160,
+		"requiredTech": "Mysticism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Small Shrine",
+
+		"faith":  1,
+		"culture": 1,
+		"cost": 160,
+		"requiredTech": "Mysticism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	}
+
+
+
+
+
+
+
+]

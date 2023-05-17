@@ -1,0 +1,93 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [ 255, 255, 255 ]
+		//		"innerColor": [255,255,255]
+	},
+
+
+	{
+		"name": "Poland",
+		"leaderName": "Pilsudski",
+		"adjective": [ "Polish" ],
+		"startBias": [ "Plains" ],
+		//		"preferredVictoryType":"Diplomatic",
+
+		/*		"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, tragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
+		"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+*/
+		"outerColor": [ 139, 38, 43 ],
+		"innerColor": [ 195, 184, 115 ],
+		//		"favoredReligion": "Christianity",
+		"uniqueName": "Poland",
+		"uniques": [ "Starts with [Abstractive Thinking]" ],
+		"cities": [ "Warsaw", "Krakow", "Lodz" ]
+	},
+	{
+		"name": "Russia",
+		"leaderName": "Putin",
+		"adjective": [ "Russian" ],
+		"startBias": [ "Plains" ],
+		"preferredVictorType": "Domination",
+
+		"outerColor": [ 180, 178, 164 ],
+		"innerColor": [ 70, 0, 4 ],
+		//"favoredReligion": "Tengriism",
+		"uniqueName": "Skillfulness of Homo Sapiens",
+		"uniques": [ "Starts with [Abstractive Thinking]" ],
+		"cities": [ "Moscow", "Petersburg", "Novogrod" ]
+	},
+	{
+		"name": "France",
+		"leaderName": "Napoleon",
+		"adjective": [ "French" ],
+		"startBias": [ "Plains" ],
+		"preferredVictorType": "Domination",
+
+		"outerColor": [ 180, 178, 164 ],
+		"innerColor": [ 70, 0, 4 ],
+		//"favoredReligion": "Tengriism",
+		"uniqueName": "Skillfulness of Homo Sapiens",
+		"uniques": [ "Starts with [Abstractive Thinking]" ],
+		"cities": [ "Paris", "Marseille", "Orleans" ]
+	},
+	{
+		"name": "Spain",
+		"leaderName": "Isabella",
+		"adjective": [ "Spanish" ],
+		"startBias": [ "Plains" ],
+		"preferredVictorType": "Domination",
+
+		"outerColor": [ 180, 178, 164 ],
+		"innerColor": [ 70, 0, 4 ],
+		//"favoredReligion": "Tengriism",
+		"uniqueName": "Skillfulness of Homo Sapiens",
+		"uniques": [ "Starts with [Abstractive Thinking]" ],
+		"cities": [ "Moscow", "Petersburg", "Novogrod" ]
+	},
+
+	//City-States
+
+
+
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [ 0, 0, 0 ],
+		"innerColor": [ 182, 0, 0 ],
+		"uniques": [ "Can only heal by pillaging" ]
+	}
+
+]

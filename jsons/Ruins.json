@@ -1,0 +1,38 @@
+[
+    {
+        "name": "discover cave paintings",
+        "notification": "We have found an abandoned cave with cave paintings many paintings (+5 culture)",
+        "uniques": ["Gain [5] [Culture]"],
+        "color": "#cf8ff7"
+    },
+    //{
+      //  "name": "squatters wishing to settle under your rule",
+      //  "notification": "A [Settler] has joined us!",
+      //  "uniques": ["Free [Settler] found in the ruins"],
+      //  "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+    //},
+    {
+        "name": "free xp",
+        "notification": "We have found the remains of a fallen god who shows us how to survive the wilderness!",
+        "uniques": ["This Unit gains [20] XP"]
+    },
+   
+    {
+        "name": "a stash of gold",
+        "notification": "We have found [goldAmount] old coins of an old heavenly currency!",
+        "uniques": ["Gain [15]-[30] [Gold]"],
+        "color": "#ffeb7f"
+    },
+    
+     
+    {
+        "name": "reveal nearby hostile wildlife habitats",
+        "notification": "The magical map indide the old structure shows us the nearby habitats of hostile wildlife!",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [15] tile radius"]
+    },
+    {
+        "name": "find a crudely-drawn map",
+        "notification": "We have found a the map of a god messenger. It reveals us a lot the information about our surroundings!",
+        "uniques": ["From a randomly chosen tile [1] tiles away from the ruins, reveal tiles up to [4] tiles away with [100]% chance"]
+    },
+]

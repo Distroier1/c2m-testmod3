@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Early Scientist",
+		"science": 2,
+		"color": [ 0, 0, 255 ]
+	},
+	{
+		"name": "Early Merchant",
+		"gold": 1,
+		"food": 1,
+		"color": [ 255, 215, 0 ]
+	},
+	{
+		"name": "Early Engineer",
+		"production": 2,
+		"color": [ 139, 69, 19 ]
+	},
+	{
+		"name": "Caveman",
+		"production": 1,
+		"food": 1,
+		"color": [ 139, 69, 19 ]
+	},
+	{
+		"name": "Early Entertainer",
+		"food": -1,
+		"gold": 1,
+		"happiness": 1,
+		"color": [ 0, 0, 255 ]
+	},
+	{
+		"name": "Peasant",
+		"production": 2,
+		"food": 2,
+		"color": [ 139, 69, 19 ]
+	}
+]
