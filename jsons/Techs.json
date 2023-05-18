@@ -239,7 +239,7 @@
                          { 
                                  "name": "Megalith construction", 
                                  "row": 4, 
-                                 "prerequisites": [ "Sedentary Lifestyle " ] 
+                                 "prerequisites": [ "Sedentary Lifestyle" ] 
   
                          }, 
                          { 
@@ -251,7 +251,7 @@
                          { 
                                  "name": "Animal Husbandry", 
                                  "row": 8, 
-                                 "prerequisites": [ "Sedentary Lifestyle " ] 
+                                 "prerequisites": [ "Sedentary Lifestyle" ] 
   
                          } 
                  ] 
