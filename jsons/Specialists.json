@@ -33,5 +33,13 @@
 		"production": 2,
 		"food": 2,
 		"color": [ 139, 69, 19 ]
+	},
+{
+		"name": "Noble",
+		"production": 2,
+  "gold": 2,
+  "culture": 2,
+		"food": -2,
+		"color": [ 139, 69, 19 ]
 	}
 ]
