@@ -78,6 +78,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [ "Pillaging this improvement yields approximately [+10 Gold]" ],
-		"shortcutKey": "H"
+		"shortcutKey": "F"
 	},
 ]
