@@ -270,7 +270,7 @@
          }, 
          { 
                  "name": "Palisade", 
-                 "cityStrenght": 1,
+                 "cityStrength": 5,
                  "maintenance": 1, 
                  "cost": 180, 
                  "requiredTech": "Palisade Building", 
