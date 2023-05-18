@@ -244,7 +244,38 @@
 		"requiredTech": "Mysticism",
 		"uniques": [ "Destroyed when the city is captured" ]
 	}
-
+        { 
+                 "name": "Marketplace", 
+                 "gold": 3, 
+                 "cost": 180, 
+                 "requiredTech": "Barter", 
+                 "specialistSlots": { "Early Merchant": 1 },
+                 "uniques": [ "Destroyed when the city is captured" ] 
+         }, 
+         { 
+                 "name": "Shepherd Hut", 
+                 "food": 2, 
+                 "maintenance": 1, 
+                 "cost": 180, 
+                 "requiredTech": "Animal Husbandry", 
+                 "uniques": [ "Destroyed when the city is captured" ] 
+         }, 
+         { 
+                 "name": "Obelisk", 
+                 "culture": 3, 
+                 "faith": 1,
+                 "cost": 180, 
+                 "requiredTech": "Megalith Construction", 
+                 "uniques": [ "Destroyed when the city is captured" ] 
+         }, 
+         { 
+                 "name": "Palisade", 
+                 "cityStrenght": 1,
+                 "maintenance": 1, 
+                 "cost": 180, 
+                 "requiredTech": "Palisade Building", 
+                 "uniques": [ "Destroyed when the city is captured" ] 
+         },
 
 
 
