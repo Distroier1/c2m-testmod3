@@ -69,13 +69,13 @@
                  "food": 2, 
                  "turnsToBuild": 5, 
                  "techRequired": "Animal Husbandry", 
-                 "uniques": [ "Pillaging this improvement yields approximately [+10 Gold]", "Can only be built to improve a resource" ]
+                 "uniques": [ "Pillaging this improvement yields approximately [+10 Gold]", "Can only be built to improve a resource" ],
 },
 {
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [ "Plains", "Grassland", "Desert", "Flood plains" ],
 		"gold": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"techRequired": "Agriculture",
 		"uniques": [ "Pillaging this improvement yields approximately [+10 Gold]" ],
 		"shortcutKey": "F"
