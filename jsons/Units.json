@@ -150,8 +150,8 @@
 		"movement": 1,
 		"cost": 100,
 		"requiredTech": "Obsidian Tools",
-
-		"uniques": [ "Bonus vs City 15%", "Consumes [copper]" ]
+"requiredResource": "Copper",
+		"uniques": [ "Bonus vs City 15%" ]
 	},
 	{
 		"name": "Obsidian Axeman",
@@ -159,7 +159,8 @@
 		"movement": 1,
 		"strength": 18,
 		"cost": 90,
-		"uniques": [ "Bonus vs Melee 50%", "Consumes [copper]" ],
+"requiredResource": "Copper",
+		"uniques": [ "Bonus vs Melee 50%" ],
 		"requiredTech": "Obsidian Tools"
 
 	},
@@ -169,7 +170,8 @@
 		"movement": 1,
 		"strength": 18,
 		"cost": 90,
-		"uniques": [ "Bonus vs Mounted 50%", "Consumes [copper]" ],
+"requiredResource": "Copper",
+		"uniques": [ "Bonus vs Mounted 50%" ],
 		"requiredTech": "Obsidian Tools"
 
 	},
