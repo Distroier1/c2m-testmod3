@@ -276,29 +276,7 @@
                  "requiredTech": "Palisade Building", 
                  "uniques": [ "Destroyed when the city is captured" ] 
          },
-        { 
-                 "name": "Stonehenge", 
-                 "culture": 4, 
-                 "science": 4,
-                 "faith": 2, 
-                 "cost": 320, 
-                 "isWonder": true, 
-                 "requiredTech": "Megalith Construction", 
-                 "specialistSlots": { "Early Scientist": 1 }
-  
-         },
-
-        { 
-                 "name": "Hill of Tara", 
-                 "culture": 2, 
-                 "happiness": 2, 
-                 "cost": 320, 
-                 "isWonder": true, 
-                 "uniques": "[+1] population [in all cities]",
-                 "requiredTech": "Megalith Construction", 
-                 "specialistSlots": { "Noble": 1 } 
-  
-         },
+       
 
 
 
