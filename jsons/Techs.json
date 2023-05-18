@@ -223,4 +223,76 @@
 			}
    ]
 	},
+        { 
+                 "columnNumber": 8, 
+                 "era": "Neolithic Age", 
+                 "techCost": 200, 
+                 "buildingCost": 200, 
+                 "techs": [ 
+                         { 
+         
+                                 "name": "Palisade Building", 
+                                 "row": 2, 
+                                 "prerequisites": [ "Sedentary Lifestyle" ], 
+                                 "quote": "" 
+                         }, 
+                         { 
+                                 "name": "Megalith construction", 
+                                 "row": 4, 
+                                 "prerequisites": [ "Sedentary Lifestyle " ] 
+  
+                         }, 
+                         { 
+                                 "name": "Barter", 
+                                 "row": 6, 
+                                 "prerequisites": [ "Sedentary Lifestyle" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Animal Husbandry", 
+                                 "row": 8, 
+                                 "prerequisites": [ "Sedentary Lifestyle " ] 
+  
+                         } 
+                 ] 
+         },
+        { 
+                 "columnNumber": 9, 
+                 "era": "Neolithic Age", 
+                 "techCost": 250, 
+                 "buildingCost": 220, 
+                 "techs": [ 
+                         { 
+                                 "name": "Archery", 
+                                 "row": 2, 
+                                 "prerequisites": [ "Palisade Building" ], 
+                                 "quote": "" 
+                         }, 
+                         { 
+                                 "name": "Agriculture", 
+                                 "row": 6, 
+                                 "prerequisites": [ "Animal Husbandry" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Mining", 
+                                 "row": 4, 
+                                 "prerequisites": [ "Megalith Construction", "Barter" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Slavery", 
+                                 "row": 7, 
+                                 "prerequisites": [ "Barter" ] 
+  
+                         },
+                         { 
+                                 "name": "Boat Building", 
+                                 "row": 8, 
+                                 "prerequisites": [ "Barter" ] 
+  
+                         } 
+                 ] 
+         },
+
 ]
